@@ -1,0 +1,33 @@
+Here’s an overview of the typical architecture for an application deployed on Amazon Elastic Beanstalk:
+
+1. User/Client:
+The user interacts with the application through a web browser or mobile app.
+
+2. Elastic Load Balancer (ELB):
+Elastic Beanstalk uses an Elastic Load Balancer to distribute incoming traffic across multiple instances to ensure availability and reliability.
+
+3. Amazon EC2 Instances:
+The application is hosted on Amazon EC2 instances, which are automatically provisioned and managed by Elastic Beanstalk. These instances run the application code.
+
+4. Auto Scaling Group:
+Elastic Beanstalk automatically scales the number of EC2 instances up or down based on the application's traffic and performance, ensuring that resources match demand.
+
+5. Amazon S3 (Optional):
+Static assets (like images, CSS, and JavaScript files) can be stored in Amazon S3 for efficient delivery to users.
+
+6. Amazon RDS (Optional):
+If the application requires a database, Amazon RDS can be used for a managed relational database service, integrated with Elastic Beanstalk.
+
+7. Amazon CloudWatch:
+Elastic Beanstalk uses Amazon CloudWatch for monitoring and logging application performance and health metrics.
+
+8. Security Groups:
+Security Groups control the inbound and outbound traffic to the EC2 instances, providing network security.
+
+9. AWS Identity and Access Management (IAM):
+IAM roles and policies manage access to AWS resources used by Elastic Beanstalk, ensuring secure and controlled access.
+
+10. Developer Interface (Elastic Beanstalk Console, CLI, or API):
+Developers interact with Elastic Beanstalk through the AWS Management Console, Elastic Beanstalk CLI, or API, to deploy and manage the application.
+
+This architecture ensures that the application is scalable, highly available, and secure, with minimal manual intervention required from the developer.
