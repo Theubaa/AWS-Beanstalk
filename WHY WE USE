@@ -1,0 +1,8 @@
+WHY WE USE BEANSTALK
+
+We  can also do that to go manually , Go to the instances and start instance install apache , go to the load balancer  like that but beanstalk can automatically. only on commands
+
+We use Amazon Elastic Beanstalk to simplify the process of deploying, managing, and scaling web applications. It allows developers to focus on writing code without worrying about 
+the underlying infrastructure. Elastic Beanstalk automates tasks like provisioning servers, load balancing, scaling, and monitoring, saving time and reducing complexity. It supports
+multiple programming languages and integrates seamlessly with other AWS services, offering flexibility and scalability. Additionally, Elastic Beanstalk provides full control over the
+environment, allowing customization as needed while maintaining ease of use, making it ideal for quickly deploying and managing applications in the cloud.
